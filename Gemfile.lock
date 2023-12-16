@@ -138,6 +138,7 @@ GEM
     minitest (5.20.0)
     msgpack (1.7.2)
     mutex_m (0.2.0)
+    mysql2 (0.5.5)
     net-imap (0.4.8)
       date
       net-protocol
@@ -255,6 +256,7 @@ DEPENDENCIES
   devise
   importmap-rails
   jbuilder
+  mysql2 (~> 0.5.3)
   puma (>= 5.0)
   rails (~> 7.1.2)
   selenium-webdriver
@@ -266,7 +268,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 3.0.1p64
+   ruby 3.0.6p216
 
 BUNDLED WITH
    2.4.20
